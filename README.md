@@ -17,8 +17,8 @@ To run this project, you need to have Python installed. Follow the steps below:
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/repo-name.git
-cd repo-name
+git clone https://github.com/mell0wO/Stock-Trading-Simulation
+cd Stock-Trading-Simulation
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
@@ -42,13 +42,6 @@ The project uses **AAPL.csv**, which contains historical prices for Apple Inc. T
 3. Train an RL agent using **Stable-Baselines3 PPO**
 4. Simulate trading decisions and track performance
 5. Visualize **trading actions and balance history**
-
-## Usage
-Run the main script to train and test the RL agent:
-
-```sh
-python main.py
-```
 
 ## Output Example
 - **Observation Space:** Box(-10000000000.0, 10000000000.0, (10, 2), float32)
